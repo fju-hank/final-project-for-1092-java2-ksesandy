@@ -7,12 +7,12 @@ public class CokeCola extends Drink{
     }
 
     @Override
-    public static String getName() {
-        return name;
+    public  String getName() {
+        return "CokeCola";
     }
 
     @Override
-    public static int getPrice() {
-        return price;
+    public  int getPrice() {
+        return 29;
     }
 }

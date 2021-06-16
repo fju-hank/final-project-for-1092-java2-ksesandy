@@ -8,11 +8,11 @@ public class MixedCongee extends Drink{
 
     @Override
     public String getName() {
-        return name;
+        return "Mixed Congee";
     }
 
     @Override
     public int getPrice() {
-        return price;
+        return 38;
     }
 }

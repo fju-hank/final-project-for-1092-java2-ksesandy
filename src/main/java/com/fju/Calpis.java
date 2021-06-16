@@ -8,12 +8,12 @@ public class Calpis extends Drink{
 
     @Override
     public String getName() {
-        return name;
+        return "Calpis";
     }
 
     @Override
     public int getPrice() {
-        return price;
+        return 25;
     }
 
 }

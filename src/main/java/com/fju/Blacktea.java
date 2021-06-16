@@ -9,11 +9,11 @@ public class Blacktea extends Drink{
 
     @Override
     public String getName() {
-        return this.name;
+        return "Black Tea";
     }
 
     @Override
     public int getPrice() {
-        return this.price;
+        return 20;
     }
 }

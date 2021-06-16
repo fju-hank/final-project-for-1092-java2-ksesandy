@@ -8,11 +8,11 @@ public class Juice extends Drink{
 
     @Override
     public String getName() {
-        return name;
+        return "Juice";
     }
 
     @Override
     public int getPrice() {
-        return price;
+        return 25;
     }
 }
