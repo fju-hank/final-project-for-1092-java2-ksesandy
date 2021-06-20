@@ -7,6 +7,7 @@ public class Tester {
         int ten,five,one,money;
         int option;
 
+
         Cokecola cokecola = new Cokecola();
         Calpis calpis = new Calpis();
         Blacktea blacktea = new Blacktea();
