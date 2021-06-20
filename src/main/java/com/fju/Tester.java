@@ -7,12 +7,12 @@ public class Tester {
         int ten,five,one,money;
         int option;
 
-        CokeCola CokeCola = new CokeCola();
-        Calpis Calpis = new Calpis();
-        Blacktea Blacktea = new Blacktea();
-        Greentea Greentea = new Greentea();
-        Juice Juice = new Juice();
-        MixedCongee MixedCongee = new MixedCongee();
+        Cokecola cokecola = new Cokecola();
+        Calpis calpis = new Calpis();
+        Blacktea blacktea = new Blacktea();
+        Greentea greentea = new Greentea();
+        Juice juice = new Juice();
+        Mixedcongee mixedcongee = new Mixedcongee();
 
         System.out.println("-----------------------------------------");
         System.out.println("Please enter 10$ , 5$ , 1$ coin numbers.");
@@ -39,61 +39,61 @@ public class Tester {
 
         switch (option){
             case 1 :
-                if ((money - Blacktea.getPrice()) < 0)
+                if ((money - blacktea.getPrice()) < 0)
                     System.out.println("Money is not enough.");
                 else
                 {
-                    System.out.println("Here is your " + Blacktea.getName());
-                    System.out.println("Return " + (money - Blacktea.getPrice()) + " $");
+                    System.out.println("Here is your " + blacktea.getName());
+                    System.out.println("Return " + (money - blacktea.getPrice()) + " $");
                 }
 
                 break;
             case 2 :
-                if ((money - Calpis.getPrice()) < 0)
+                if ((money - calpis.getPrice()) < 0)
                     System.out.println("Money is not enough.");
                 else{
-                    System.out.println("Here is your " + Calpis.getName());
-                    System.out.println("Return " + (money - Calpis.getPrice()) + " $");
+                    System.out.println("Here is your " + calpis.getName());
+                    System.out.println("Return " + (money - calpis.getPrice()) + " $");
                 }
 
                 break;
             case 3 :
-                if ((money - CokeCola.getPrice()) < 0)
+                if ((money - cokecola.getPrice()) < 0)
                     System.out.println("Money is not enough.");
                 else
                 {
-                    System.out.println("Here is your " + CokeCola.getName());
-                    System.out.println("Return " + (money - CokeCola.getPrice()) + " $");
+                    System.out.println("Here is your " + cokecola.getName());
+                    System.out.println("Return " + (money - cokecola.getPrice()) + " $");
                 }
 
                 break;
             case 4 :
-                if ((money - Greentea.getPrice()) < 0)
+                if ((money - greentea.getPrice()) < 0)
                     System.out.println("Money is not enough.");
                 else
                 {
-                    System.out.println("Here is your " + Greentea.getName());
-                    System.out.println("Return " + (money - Greentea.getPrice()) + " $");
+                    System.out.println("Here is your " + greentea.getName());
+                    System.out.println("Return " + (money - greentea.getPrice()) + " $");
                 }
 
                 break;
             case 5 :
-                if ((money - Juice.getPrice()) < 0)
+                if ((money - juice.getPrice()) < 0)
                     System.out.println("Money is not enough.");
                 else
                 {
-                    System.out.println("Here is your " + Juice.getName());
-                    System.out.println("Return " + (money - Juice.getPrice()) + " $");
+                    System.out.println("Here is your " + juice.getName());
+                    System.out.println("Return " + (money - juice.getPrice()) + " $");
                 }
 
                 break;
             case 6 :
-                if ((money - MixedCongee.getPrice()) < 0)
+                if ((money - mixedcongee.getPrice()) < 0)
                     System.out.println("Money is not enough.");
                 else
                 {
-                    System.out.println("Here is your " + MixedCongee.getName());
-                    System.out.println("Return " + (money - MixedCongee.getPrice()) + " $");
+                    System.out.println("Here is your " + mixedcongee.getName());
+                    System.out.println("Return " + (money - mixedcongee.getPrice()) + " $");
                 }
 
                 break;

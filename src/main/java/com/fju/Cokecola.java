@@ -1,7 +1,7 @@
 package com.fju;
 
-public class CokeCola extends Drink{
-    public CokeCola(){
+public class Cokecola extends Drink{
+    public Cokecola(){
         int price = 29;
         String name = "CokeCola";
     }
